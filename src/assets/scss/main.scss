@@ -3,6 +3,7 @@ $secondary: #ffc700;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+@import 'mixin.scss';
 @import 'cart.scss';
 @import 'home.scss';
 @import 'typography.scss';	

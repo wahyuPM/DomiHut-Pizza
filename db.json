@@ -56,23 +56,23 @@
       "price": 1
     }
   ],
-  "orderList": [
+  "cart": [
     {
-      "order": {
-        "id": 2,
-        "name": "Grilled Beef supreme",
+      "item": {
+        "id": 4,
+        "name": "Chicken supreme mozarella",
         "price": 10,
         "toping": [
           {
-            "id": 5,
-            "name": "Sausage",
+            "id": 4,
+            "name": "Brocolli",
             "price": 1
           }
         ],
         "image": "/img/pizza1.1b86e22a.jpg"
       },
       "subTotal": 11,
-      "id": 1
+      "id": 2
     }
   ]
 }

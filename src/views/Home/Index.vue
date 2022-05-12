@@ -122,7 +122,7 @@ export default {
   methods: {
     async getCart() {
       try {
-        const response = await this.$http.get(`${this.$api_url}/orderList`);
+        const response = await this.$http.get(`${this.$api_url}/cart`);
         if (response) {
           this.cart = response.data;
           this.total = this.cart.reduce(
@@ -177,8 +177,8 @@ export default {
     },
     async addToCart() {
       try {
-        const response = await this.$http.post(`${this.$api_url}/orderList`, {
-          order: this.orderList[0],
+        const response = await this.$http.post(`${this.$api_url}/cart`, {
+          item: this.orderList[0],
           subTotal: this.subTotal,
         });
 
@@ -210,7 +210,7 @@ export default {
       }).then((willDelete) => {
         if (willDelete) {
           this.$http
-            .delete(`${this.$api_url}/orderList/${id}`)
+            .delete(`${this.$api_url}/cart/${id}`)
             .then(() => {
               swal({
                 title: "Sukses!",

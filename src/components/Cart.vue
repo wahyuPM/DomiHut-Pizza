@@ -6,19 +6,19 @@
     <div class="cart__body">
       <div v-for="(row, index) in items" :key="index" class="cart__body-item">
         <div class="cart__body-item-img">
-          <img :src="`${$app_url + row.order.image}`" alt="pizza" />
+          <img :src="`${$app_url + row.item.image}`" alt="pizza" />
         </div>
         <div class="cart__body-item-desc">
           <div class="cart__body-item-desc-title">
-            <p class="text-start bolder">{{ row.order.name }}</p>
+            <p class="text-start bolder">{{ row.item.name }}</p>
           </div>
           <div class="cart__body-item-desc-toping mb-2">
-            <p v-if="row.order.toping.length === 0" class="text-start">
+            <p v-if="row.item.toping.length === 0" class="text-start">
               No Topings
             </p>
             <p
               v-else
-              v-for="(toping, index) in row.order.toping"
+              v-for="(toping, index) in row.item.toping"
               :key="index"
               class="text-start"
             >
