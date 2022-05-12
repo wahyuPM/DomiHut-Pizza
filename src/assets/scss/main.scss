@@ -1,0 +1,9 @@
+$primary: #00b2ff;
+$secondary: #ffc700;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+@import 'cart.scss';
+@import 'home.scss';
+@import 'typography.scss';	
+@import 'btn.scss';

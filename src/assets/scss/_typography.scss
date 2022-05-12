@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(../font/0b51833ff62e4af8acb5fd3e2bf59e97.eot);
+    src: url(../font/0b51833ff62e4af8acb5fd3e2bf59e97.woff) format("woff");
+    src: url(../font/0b51833ff62e4af8acb5fd3e2bf59e97.ttf) format("truetype");
+}
+
+.default{
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 1rem;
+    color: #28293d;
+
+    .lead{
+        font-size: .8rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        margin-bottom: 0;
+        letter-spacing: 2.5px;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        letter-spacing: 2.5px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        letter-spacing: 2.5px;
+    }
+    
+    p {
+        margin-bottom: 0;
+    }
+
+    .bold{
+        font-weight: 600;
+    }
+
+    .bolder{
+        font-weight: 800;
+    }
+}
