@@ -153,9 +153,7 @@ export default {
           );
           this.orderList[0].toping.splice(index, 1);
           topingPrice = 0;
-          console.log("remove toping");
         } else {
-          console.log("add toping");
           this.orderList[0].toping.push(
             this.topingList.filter((row) => row.id === id)[0]
           );

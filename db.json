@@ -59,20 +59,25 @@
   "cart": [
     {
       "item": {
-        "id": 4,
-        "name": "Chicken supreme mozarella",
+        "id": 1,
+        "name": "American classic cheeseburger",
         "price": 10,
         "toping": [
           {
-            "id": 4,
-            "name": "Brocolli",
+            "id": 5,
+            "name": "Sausage",
+            "price": 1
+          },
+          {
+            "id": 1,
+            "name": "Avocado",
             "price": 1
           }
         ],
         "image": "/img/pizza1.1b86e22a.jpg"
       },
-      "subTotal": 11,
-      "id": 2
+      "subTotal": 12,
+      "id": 3
     }
   ]
 }
