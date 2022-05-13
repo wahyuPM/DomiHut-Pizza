@@ -19,7 +19,7 @@
                 class="home__body-item"
               >
                 <div class="home__body-item-img">
-                  <img :src="`${$app_url + row.image}`" alt="pizza" />
+                  <img src="@/assets/img/pizza1.jpg" alt="pizza" />
                 </div>
                 <div class="home__body-item-title">
                   <p class="bolder">{{ row.name }}</p>
